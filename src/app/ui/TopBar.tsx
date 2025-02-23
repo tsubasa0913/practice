@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const roots = [
-    { id: 1, url: "/", name: "ホーム"},
-    { id: 2, url: "/member", name: "メンバー"},
-    { id: 3, url: "/memory", name: "活動したこと"}
+    { id: 1, url: "/", name: "ホーム", color: ""},
+    { id: 2, url: "/member", name: "メンバー", color: ""},
+    { id: 3, url: "/memory", name: "活動したこと", color: ""}
 ];    
 
 export default function TopBar() {
